@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        card_view:cardCornerRadius="5dp"
+        card_view:cardUseCompatPadding="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="05dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimary"
+                android:text="Anyone"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                android:id="@+id/txtTelegramGroupFor"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtTelegramGroupDescripion"
+                android:text="Anyone can Join this Group"
+                android:textStyle="bold" />
+<!--            <TextView-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="Anyone can Join this Group"-->
+<!--                android:textStyle="bold"-->
+<!--                android:id="@+id/txtTlegramGroupLink"-->
+<!--                android:autoLink="web"/>-->
+
+            <Button
+                android:id="@+id/btnJoinGroup"
+                android:layout_width="100dp"
+                android:layout_height="25dp"
+                android:layout_gravity="end"
+                android:layout_marginTop="05dp"
+                android:layout_marginBottom="05dp"
+                android:background="@drawable/button_background"
+                android:elevation="10dp"
+                android:shadowColor="@color/colorBlack"
+                android:shadowRadius="10"
+                android:text="Join Now"
+                android:textAllCaps="false"
+                android:textColor="@color/colorPrimary"
+                android:textSize="16sp"
+                android:theme="@style/RippleEffect"
+                android:translationZ="10dp" />
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>

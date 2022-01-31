@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:livebutton="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBlack"
+    android:clickable="true"
+    tools:context=".activities.Login">
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imhLogo"
+                android:layout_width="350dp"
+
+                android:layout_height="300dp"
+                android:layout_centerHorizontal="true"
+                android:src="@mipmap/mmc_logo" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/imhLogo"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Enter One Time Password"
+                    android:textAlignment="center"
+                    android:textColor="@color/colorWhite" />
+
+
+                <com.chaos.view.PinView
+                    android:id="@+id/input_otp_buy"
+                    style="@style/PinWidget.PinView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:cursorVisible="true"
+                    android:digits="0123456789"
+                    android:inputType="phone"
+                    android:padding="10dp"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="18sp"
+                    app:cursorColor="@color/colorAccent"
+                    app:cursorWidth="2dp"
+                    app:itemCount="6"
+                    app:itemHeight="48dp"
+                    app:itemRadius="4dp"
+                    app:itemSpacing="5dp"
+                    app:itemWidth="36dp"
+                    app:lineColor="@color/colorGray"
+                    app:lineWidth="2dp"
+                    app:viewType="rectangle" />
+
+                <ru.katso.livebutton.LiveButton
+                    android:id="@+id/btnSubmitOTP"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginTop="25dp"
+                    android:layout_marginRight="25dp"
+                    android:text="Submit >>"
+                    android:textAllCaps="false"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="18sp"
+                    livebutton:backgroundColor="@color/colorGreen"
+                    livebutton:corners="8dp"
+                    livebutton:normalHeight="4dp"
+                    livebutton:pressedHeight="1dp"
+                    livebutton:shadowColor="@color/colorAccent" />
+
+                <TextView
+                    android:id="@+id/txtResendOTP"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:layout_marginTop="20dp"
+                    android:text="Re-send OTP"
+                    android:textAlignment="center"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="20dp" />
+
+            </LinearLayout>
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

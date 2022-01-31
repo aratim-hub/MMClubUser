@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    xmlns:livebutton="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="05dp">
+
+    <LinearLayout
+        android:orientation="vertical"
+
+        android:layout_width="match_parent"
+        android:background="@color/colorWhite"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Select prefered language"
+            android:textSize="18sp"
+            android:textColor="@color/colorBlack"
+            android:id="@+id/txtDisplayTitle" />
+
+
+        <View
+            android:layout_width="match_parent"
+            android:background="@color/colorBlack"
+
+            android:layout_height="1dp"></View>
+
+        <RadioGroup
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:id="@+id/rdbtnEnglish"
+                android:text="English" />
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_marginTop="15dp"
+                android:id="@+id/rdbtnHindi"
+                android:layout_height="wrap_content"
+                android:text="हिन्दी " />
+        </RadioGroup>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="05dp"
+            android:layout_marginTop="20dp"
+            android:weightSum="2">
+
+            <ru.katso.livebutton.LiveButton
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_weight="1"
+                android:id="@+id/btnSubmitLanguage"
+                android:text="Next >>"
+                android:layout_marginLeft="05dp"
+                android:textAllCaps="false"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="18sp"
+                livebutton:backgroundColor="@color/colorGreen"
+                livebutton:corners="2dp"
+                livebutton:normalHeight="4dp"
+                livebutton:pressedHeight="1dp"
+                livebutton:shadowColor="@color/colorAccent" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple xmlns:android="http://schemas.android.com/apk/res/android"
+    android:color="@color/colorWhite">
+    <item android:id="@android:id/mask">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/colorWhite" />
+            <corners android:radius="10dp" />
+        </shape>
+    </item>
+
+    <item android:id="@android:id/background">
+        <shape android:shape="rectangle">
+            <gradient
+                android:angle="90"
+                android:endColor="#000000"
+                android:startColor="#FFFFFF"
+                android:type="linear" />
+            <corners android:radius="10dp" />
+        </shape>
+    </item>
+    <item android:state_pressed="true">
+        <layer-list>
+            <item
+                android:right="4dp"
+                android:bottom="4dp">
+                <shape>
+                    <gradient
+                        android:angle="90"
+                        android:endColor="#7E2608"
+                        android:startColor="#7E2608"
+                        android:type="linear" />
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+
+</ripple>
+
+    <!--<selector xmlns:android="http://schemas.android.com/apk/res/android">-->
+    <!--<item android:state_pressed="true">-->
+    <!--    <layer-list>-->
+    <!--        <item android:left="4dp" android:top="4dp">-->
+    <!--            <shape>-->
+    <!--                <solid android:color="#ff58bb52" />-->
+    <!--                <corners android:radius="30dip"/>-->
+    <!--            </shape>-->
+    <!--        </item>-->
+    <!--    </layer-list>-->
+    <!--</item>-->
+    <!--<item>-->
+    <!--    <layer-list>-->
+    <!--        &lt;!&ndash; SHADOW LAYER &ndash;&gt;-->
+    <!--        <item android:left="4dp" android:top="4dp">-->
+    <!--            <shape>-->
+    <!--                <solid android:color="#66000000" />-->
+    <!--                <corners android:radius="30dip"/>-->
+    <!--            </shape>-->
+    <!--        </item>-->
+    <!--        &lt;!&ndash; CONTENT LAYER &ndash;&gt;-->
+    <!--        <item android:bottom="4dp" android:right="4dp">-->
+    <!--            <shape>-->
+    <!--                <solid android:color="#ff58bb52" />-->
+    <!--                <corners android:radius="30dip"/>-->
+    <!--            </shape>-->
+    <!--        </item>-->
+    <!--    </layer-list>-->
+    <!--</item>-->
+    <!--</selector>-->
+
+
+

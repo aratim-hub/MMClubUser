@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:livebutton="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/colorBlack"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".activities.FullImageView">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/imgFullView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content">
+
+
+            <ru.katso.livebutton.LiveButton
+                android:id="@+id/bLeft"
+                android:layout_width="30dp"
+                android:layout_height="115dp"
+                android:layout_toRightOf="@id/bLeft"
+                android:text="@string/left_sign"
+                android:textAllCaps="false"
+                android:textColor="@color/colorPrimaryDark"
+                livebutton:backgroundColor="@color/colorGray"
+                livebutton:corners="8dp"
+                livebutton:normalHeight="4dp"
+                livebutton:pressedHeight="1dp"
+                livebutton:shadowColor="@color/colorAccent"
+                 />
+
+
+            <ru.katso.livebutton.LiveButton
+                android:id="@+id/bUp"
+                android:layout_width="115dp"
+                android:layout_height="30dp"
+                android:layout_below="@id/bUp"
+                android:layout_marginLeft="05dp"
+                android:layout_toRightOf="@id/bLeft"
+                android:text="UP"
+                android:textAllCaps="false"
+                android:textColor="@color/colorPrimaryDark"
+                livebutton:backgroundColor="@color/colorGray"
+                livebutton:corners="8dp"
+                livebutton:normalHeight="4dp"
+                livebutton:pressedHeight="1dp"
+                livebutton:shadowColor="@color/colorAccent" />
+
+
+            <ru.katso.livebutton.LiveButton
+                android:id="@+id/bShare"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_below="@id/bUp"
+                android:layout_marginStart="05dp"
+                android:layout_marginLeft="05dp"
+                android:layout_marginTop="05dp"
+                android:layout_toRightOf="@id/bLeft"
+                android:text="Share"
+                android:textAllCaps="false"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="18sp"
+                livebutton:backgroundColor="@color/colorGray"
+                livebutton:corners="8dp"
+                livebutton:normalHeight="4dp"
+                livebutton:pressedHeight="1dp"
+                livebutton:shadowColor="@color/colorAccent" />
+
+            <ru.katso.livebutton.LiveButton
+                android:id="@+id/bRight"
+                android:layout_width="30dp"
+                android:layout_height="115dp"
+                android:layout_below="@id/bUp"
+                android:layout_marginLeft="05dp"
+                android:layout_marginTop="05dp"
+                android:layout_toRightOf="@id/bShare"
+                android:text=">"
+                android:textAllCaps="false"
+                android:textColor="@color/colorPrimaryDark"
+                livebutton:backgroundColor="@color/colorGray"
+                livebutton:corners="8dp"
+                livebutton:normalHeight="4dp"
+                livebutton:pressedHeight="1dp"
+                livebutton:shadowColor="@color/colorAccent" />
+
+
+            <ru.katso.livebutton.LiveButton
+                android:id="@+id/bbDown"
+                android:layout_width="115dp"
+                android:layout_height="30dp"
+                android:layout_below="@id/bShare"
+                android:layout_marginTop="05dp"
+                android:text="DOWN"
+                android:textAllCaps="false"
+                android:textColor="@color/colorPrimaryDark"
+                livebutton:backgroundColor="@color/colorGray"
+                livebutton:corners="8dp"
+                livebutton:normalHeight="4dp"
+                livebutton:pressedHeight="1dp"
+                livebutton:shadowColor="@color/colorAccent" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+</ScrollView>

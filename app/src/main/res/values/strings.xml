@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MMC</string>
+    <string name="enter_registered_mobile_number">Enter Registered mobile number</string>
+    <string name="messege">Enter Registered mobile number</string>
+    <string name="title_activity_home">Home</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="home">Home</string>
+    <string name="start_business">SP-Business Content</string>
+    <string name="profile">Profile</string>
+    <string name="wallete">Wallet</string>
+    <string name="team_member_details">Team Member Details</string>
+    <string name="view_payment_proof">payment Proof</string>
+    <string name="trainning_video">Business Training VDO</string>
+    <string name="sponsor_trainning">Sponsor Trainning</string>
+    <string name="great_sponsor_trainning">Great Sponsor Trainning</string>
+    <string name="marketing_material">Marketing Material</string>
+    <string name="news">News</string>
+    <string name="events">Events</string>
+    <string name="support">MMC Support</string>
+    <string name="left_sign"><![CDATA[<]]></string>
+    <string name="my_downlink">My Team + Approval</string>
+    <string name="bussiness_turnover">Business Turnover</string>
+    <string name="change_sponsor">Change Sponsor</string>
+    <string name="my_coupons">My Coupons</string>
+    <string name="Share">Share MMC Sponsor Link</string>
+    <string name="QASection">Q &amp; A Section</string>
+    <string name="success_stories">Success Stories</string>
+    <string name="change_language">Change Language</string>
+    <string name="join_whatsapp">Join Telegram Group</string>
+    <string name="shapath_patra">वचनपत्र</string>
+    <string name="join_zoom_meeting">Join Online Training</string>
+    <string name="update_nexmoney_link">Update NexMoney Link</string>
+    <string name="about_us">About Us</string>
+    <string name="our_achievment">Our Achievement</string>
+    <string name="log_out">Log out</string>
+    <string name="sharing_image">Images</string>
+    <string name="closing_content">Closing Content</string>
+    <string name="how_to_use">How to Use?</string>
+    <string name="start_business_2">Start Business</string>
+
+    <string name="select_company_first">Please select Company first</string>
+    <string name="enter_coupon_code_to_start_business">Enter Coupon code to Start Business</string>
+    <string name="your_host_details">Your Sponsor Details:</string>
+    <string name="mmessege" translatable="false">Messege</string>
+    <string name="upload_response_success">Your Payment proof and referal link upload successfully</string>
+    <string name="upload_response_failure">Your Payment proof and referal link already uploaded</string>
+    <string name="click_for_multisucess">Click for Multi-Success</string>
+    <string name="join_nexmoney_first">Kindly Join NexMoney first</string>
+    <string name="warning">Warning</string>
+    <string name="join_member_warning_oklifecare">You should join atleast 2 members for Nexmoney to Proceed for OkLifeCare</string>
+    <string name="step_msg_introvdo">Please watch Introduction Video for better understanding of MMC Multi Success Program</string>
+    <string name="step_msg_qa_video">Now for better understanding of MMC Multi Success Program, it is time to watch the Frequently Asked common  Questions and Answers Video</string>
+    <string name="step_msg_startbusiness">Your registration fees has been received to MMC, Now its time to redeem reward coupon code no. to start Business, Please check Email inbox to get coupon code.</string>
+    <string name="step_msg_paynow">You are selected for MMC Membership &amp; Service, Now its time to pay MMC Registration Fees</string>
+    <string name="imp_msg">Important Messege</string>
+    <string name="later">Later</string>
+    <string name="watch_now">Watch Now</string>
+    <string name="coupon_redeem_success">Congratulations, you have successfully filled in the Reward Coupon Registration Code Number! And you are eligible to start MMC MSP business!</string>
+    <string name="done">Done</string>
+    <string name="step_join_nexmoney">Now its time to join Second Company, if already joined Please upload payment receipt and link</string>
+    <string name="step_join_renatus_nova">Now its time to join First Company, if already joined Please upload payment receipt and sponsor id of Renatus Nova</string>
+    <string name="step_join_training"></string>
+    <string name="join_nexmoney_now">Join NexMoney Now</string>
+    <string name="join_renatusnova_now">Join Renatus Nova Now</string>
+    <string name="upload_link">Upload My Renatus Nova Id</string>
+    <string name="join_training_now">Go to Training Videos</string>
+    <string name="step_training_second">To do MMC Video Training well and get Rs.3600 / Reward Coupon, get help from your sponsor and revise your training!</string>
+    <string name="pay_now">Pay Now</string>
+    <string name="wallet_history">Wallet History</string>
+    <string name="letter_content"> वचनपत्र- \n मैंने MMC Success Program को अच्छे से समझ लिया है!  MMC एक education base income program है !  मुझे अगर MMC Program में सफल होना है, तो मुझे MMC द्वारा सिखाई जा रही Success steps को सीखना है और उस हिसाब से काम करना है!  मुझे यह भी पता चल गया है कि,अगर मैं सीखूंगा और सीखे हुवे विषय पर प्रत्यक्ष कार्य करूंगा तभी जा कर मुझे सफलता मिलने वाली है !  मतलब मेरी सफलता मेरे सीखने और उसपर कार्य पर निर्भर है ! इसीलिए मैं MMC द्वारा बनाई हर सिस्टम/स्टेप्स/नियम का पालन करूंगा और उसे मैं अमल में लाऊंगा!  मेरी सफलता के लिए, मुझे सिखाने, मेरे स्पांसर अपना कीमती वक्त देने वाले है और वो अपने अनुभव से सीखा हुवा, अपना अनमोल ज्ञान मुझे देने वाले है, इसलिए मैं सदा अपने स्पांसर का आभारी रहूंगा और उनके वक्त की कदर करूंगा !  मैं अगले एक महीने की, अपनी MMC Business Training के लिए, अपने Sponsor से निवेदन कर के, अगले एक महीने का उनका और  अपना time Scheduled बना लूंगा, और मैं रोज खुद अपने Sponsor का निर्णीत वक्त से पहले, फॉलोअप ले कर के, एक महीने की ट्रेनिंग पूर्ण करूंगा!  मैं अच्छे से जान चुका हूं, की यह मेरा अपना Business है, इसलिए, मुझे इस Business को सफल बनाने के लिए, Sponsor द्वारा शिक्षा पाना जरूरी है, और इसीलिए मुझे शिक्षा पाने के लिए Sponsor का फ़ॉलोप लेना मेरी जिम्मेदारी है! पर, अगर मेरी शिक्षा लिए, मेरे Sponsor मुझे फॉलोअप कर रहे है, मतलब मैं असफलता के ट्रक पर हूँ!  MMC और अपने Sponsor द्वारा मुझे मिला MMC Business Knowledge, मैं अपने हर Direct Join Success Partner को, मैं उनका Sponsor होने की जिम्मेदारी निभाउंगा और उनके 10 डायरेक्ट Joining होने तक उन्हें प्रक्टिकल ट्रेनिंग दूंगा यह मेरा वचन है!  मुझे पता है की MMC Registration charges Non Refundable है!  मुझे यह भी पता है, की MLM Industry यह एक Risky industry है, इसीलिए, मैं जिस भी MLM कंपनी में अपनी जोइनिग लगाने वाला हु, उस कंपनी की MMC किसी तरह कोई गारंटी नही लेती है और न ही MMC और Sponsor के ऊपर कोई जिम्मेदारी आती है!  मैं यह भी अच्छे से जानता हूं, की आगे चल के किसी भी MLM कंपनी में किसी भी तरह की समस्या उत्त्पन्न होती है, तो वह मुझे खुद को अपने आप, उस कंपनी की सर्विस सेवा का उपयोग कर के, खुद ही निदान/सामाधान निकालना है, इसके लिए  Sponsor और MMC की तरफ से कोई सेवा उपलब्ध नही है !  मैं वचन देता हूं, की मैं MMC द्वारा दिये गए स्टेप्स के साथ ही चलूंगा और सभी नियमो का पालन करूंगा!  मुझे पता है कि अगर मैं, MMC के  नियमो का पालन नही करता हु, तो मेरी MMC सदस्यता रद्द/ निष्कासित हो सकती है !</string>
+    वचनपत्र-
+    \n
+    मैंने MMC Success Program को अच्छे से समझ लिया है!
+    \n
+    MMC एक education base income program है !
+    \n
+    मुझे अगर MMC Program में सफल होना है, तो मुझे MMC द्वारा सिखाई जा रही Success steps को सीखना है
+    और उस हिसाब से काम करना है!
+    \n
+    मुझे यह भी पता चल गया है कि,अगर मैं सीखूंगा और सीखे हुवे विषय पर प्रत्यक्ष कार्य करूंगा तभी जा
+    कर मुझे सफलता मिलने वाली है !
+    \n
+    मतलब मेरी सफलता मेरे सीखने और उसपर कार्य पर निर्भर है !
+    इसीलिए मैं MMC द्वारा बनाई हर सिस्टम/स्टेप्स/नियम का पालन करूंगा और उसे मैं अमल में लाऊंगा!
+    \n
+    मेरी सफलता के लिए, मुझे सिखाने, मेरे स्पांसर अपना कीमती वक्त देने वाले है और वो अपने अनुभव से
+    सीखा हुवा, अपना अनमोल ज्ञान मुझे देने वाले है,
+    इसलिए मैं सदा अपने स्पांसर का आभारी रहूंगा और उनके वक्त की कदर करूंगा !
+    \n
+    मैं अगले एक महीने की, अपनी MMC Business Training के लिए, अपने Sponsor से निवेदन कर के, अगले एक
+    महीने का उनका और अपना time Scheduled बना लूंगा,
+    और मैं रोज खुद अपने Sponsor का निर्णीत वक्त से पहले, फॉलोअप ले कर के, एक महीने की ट्रेनिंग पूर्ण
+    करूंगा!
+    \n
+    मैं अच्छे से जान चुका हूं, की यह मेरा अपना Business है,
+    इसलिए, मुझे इस Business को सफल बनाने के लिए,
+    Sponsor द्वारा शिक्षा पाना जरूरी है,
+    और इसीलिए मुझे शिक्षा पाने के लिए Sponsor का फ़ॉलोप लेना मेरी जिम्मेदारी है!
+    पर, अगर मेरी शिक्षा लिए, मेरे Sponsor मुझे फॉलोअप कर रहे है,
+    मतलब मैं असफलता के ट्रक पर हूँ!
+    \n
+    MMC और अपने Sponsor द्वारा मुझे मिला MMC Business Knowledge,
+    मैं अपने हर Direct Join Success Partner को,
+    मैं उनका Sponsor होने की जिम्मेदारी निभाउंगा और उनके 10 डायरेक्ट Joining होने तक उन्हें
+    प्रक्टिकल ट्रेनिंग दूंगा यह मेरा वचन है!
+    \n
+    मुझे पता है की MMC Registration charges Non Refundable है!
+    \n
+    मुझे यह भी पता है, की MLM Industry यह एक Risky industry है,
+    इसीलिए, मैं जिस भी MLM कंपनी में अपनी जोइनिग लगाने वाला हु, उस कंपनी की MMC किसी तरह कोई गारंटी
+    नही लेती है और न ही MMC और Sponsor के ऊपर कोई जिम्मेदारी आती है!
+    \n
+    मैं यह भी अच्छे से जानता हूं, की आगे चल के किसी भी MLM कंपनी में किसी भी तरह की समस्या उत्त्पन्न
+    होती है,
+    तो वह मुझे खुद को अपने आप, उस कंपनी की सर्विस सेवा का उपयोग कर के, खुद ही निदान/सामाधान निकालना
+    है,
+    इसके लिए Sponsor और MMC की तरफ से कोई सेवा उपलब्ध नही है !
+    \n
+    मैं वचन देता हूं, की मैं MMC द्वारा दिये गए स्टेप्स के साथ ही चलूंगा और सभी नियमो का पालन
+    करूंगा!
+    \n
+    मुझे पता है कि अगर मैं, MMC के नियमो का पालन नही करता हु, तो मेरी MMC सदस्यता रद्द/ निष्कासित हो
+    सकती है !
+    <string />
+    <string name="join_now">Join Now</string>
+    <string name="join">Join</string>
+    <string name="click_to_join">Click to Join</string>
+    <string name="joining_link">Joining Link : </string>
+    <string name="company_shopee">Company Shopees</string>
+    <string name="company_shopee_address">Company Shopee Address</string>
+    <string name="gurukul">Gurukul</string>
+
+</resources>

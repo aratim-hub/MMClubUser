@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/tools"
+    xmlns:livebutton="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/layout_debtor_list"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="true"
+    android:background="@color/colorBlack"
+    android:orientation="vertical">
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        card_view:cardCornerRadius="5dp"
+        card_view:cardElevation="5dp"
+        android:outlineSpotShadowColor="@color/colorPrimary"
+        card_view:cardUseCompatPadding="true" />
+
+    <Button
+        android:id="@+id/btnAddSupportTicket"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="05dp"
+        android:layout_marginBottom="05dp"
+        android:background="@drawable/button_background"
+        android:elevation="10dp"
+        android:shadowColor="@color/colorBlack"
+        android:text="Support Message"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="@color/colorPrimary"
+        android:textSize="16sp"
+        android:theme="@style/RippleEffect"
+        android:translationZ="10dp" />
+
+
+</RelativeLayout>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "44007992073",
+    "firebase_url": "https://mmc-user-3c559.firebaseio.com",
+    "project_id": "mmc-user-3c559",
+    "storage_bucket": "mmc-user-3c559.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:44007992073:android:f816f1360bf74068a041d8",
+        "android_client_info": {
+          "package_name": "com.appmart.mmcuser"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "44007992073-m29baulskrf9ul597hfeahbbins2g1nn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAvMhfP7gJv4wl3h9oACr4eZWLgjZFVjI0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "44007992073-m29baulskrf9ul597hfeahbbins2g1nn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

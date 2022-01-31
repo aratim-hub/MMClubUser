@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.appmart.mmcuser">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+
+    <queries>
+        <intent>
+            <action android:name="com.google.android.youtube.api.service.START" />
+        </intent>
+    </queries>
+
+    <application
+        android:name=".MyApplication"
+        android:icon="@mipmap/mmc_logo_icon"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/mmc_logo_icon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".activities.GreatSponserTrainingTestActivity"></activity>
+        <activity android:name=".activities.SpoonserTrainigTestActivity" />
+        <activity
+            android:name=".activities.CompanyShopeeAddress"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="CompanyShopeeAddress" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activities.BusinessTrainingVedioTestActivity" />
+        <activity android:name=".activities.PreLoginActivity" />
+        <activity android:name=".trainingvideo.TrainingVideoMCQActivity" />
+        <activity
+            android:name=".activities.EventActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="EventActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".businessturnover.BusinessTurnover"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".events.AddNewOnlineEvents"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activities.RegisterActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".activities.CustomerCareActivity">
+            <intent-filter>
+                <action android:name=".activities.CustomerCareActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".start_business_guide.StartBusinessGuide"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".sponsor_training.SponsorTraining"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".great_sponsor_training.GreatSponsorTraining"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activities.GoMultiIncome"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activities.ChangeSponsor"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".payment_gateway.PaymentRequest" />
+        <activity
+            android:name=".activities.StartBusiness"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name=".activities.StartBusiness" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activities.UpdateReferenceLink"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activities.UpdateReferenceLinkAgain"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activities.MarketingMaterial"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name=".activities.MarketingMaterial" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activities.TrainningVideo"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activities.QASection"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".activities.YoutubePlayVideoTraining" />
+        <activity android:name=".activities.YoutubePlayVideoMultisuccess" />
+        <activity android:name=".activities.YoutubePlayVideoIntroduction" />
+        <activity
+            android:name=".activities.MultiSuccess"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".activities.FullImageView" />
+        <activity android:name=".activities.PlayTrainingVideo" />
+        <activity
+            android:name=".activities.Home"
+            android:configChanges="locale|orientation"
+            android:label="@string/title_activity_home"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".activities.Login" />
+        <activity android:name=".Splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activities.FullImageShare" />
+        <activity
+            android:name=".businessturnover.pastturnoverlist.PastTurnOverList"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".approval.ApprovalList"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_icon"
+            android:resource="@mipmap/mmc_logo_mini" />
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_color"
+            android:resource="@color/colorAccent" />
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="${applicationId}.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths" />
+        </provider> <!-- <service android:name=".MyFirebaseInstanceIdService" android:exported="true"> -->
+        <!-- <intent-filter> -->
+        <!-- <action android:name="com.google.firebase.INSTANCE_ID_EVENT"/> -->
+        <!-- </intent-filter> -->
+        <!-- </service> -->
+        <!-- <service android:name=".fcm.MyFirebaseInstanceIDService" android:exported="true"> -->
+        <!-- <intent-filter> -->
+        <!-- <action android:name="com.google.firebase.INSTANCE_ID_EVENT" /> -->
+        <!-- </intent-filter> -->
+        <!-- </service> -->
+        <service android:name=".UpdateDeviceToken" />
+        <service android:name=".fcm.MyFirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        <service android:name=".services.GetHostDetails" />
+        <service android:name=".services.GetHostReferalLinks" />
+        <service android:name=".services.GetMMCReferalLinks" />
+        <service android:name=".services.GetStartBusinessVideoLink" />
+        <service android:name=".services.ConstantDataService" />
+        <service android:name=".services.GetProfileDetails" />
+        <service android:name=".services.GetPaymentDetails" />
+        <service android:name=".services.GetLinkRequestDetails" />
+        <service android:name=".services.changeSponsorDirectly" />
+        <service android:name=".services.checkSponsorEligibility" />
+        <service android:name=".services.GetUserIdAndNames" />
+        <service android:name=".services.GetCompanySequence" />
+
+        <receiver
+            android:name=".InstallReferrerReceiver"
+            android:exported="true"
+            android:permission="android.permission.INSTALL_PACKAGES">
+            <intent-filter>
+                <action android:name="com.android.vending.INSTALL_REFERRER" />
+            </intent-filter>
+        </receiver>
+    </application>
+
+</manifest>

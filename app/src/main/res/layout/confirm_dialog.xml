@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center_horizontal">
+
+    <TextView
+        android:id="@+id/txtTitle"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:background="@color/colorPrimary"
+        android:padding="8dp"
+        android:text="Title"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtMessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtTitle"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="10dp"
+        android:padding="3dp"
+        android:text="Message"
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtMessage"
+        android:gravity="end"
+        android:padding="3dp">
+
+        <ru.katso.livebutton.LiveButton
+            android:id="@+id/btnCancel"
+            android:layout_width="80dp"
+            android:layout_height="30dp"
+            android:layout_marginEnd="3dp"
+            android:text="Cancel"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            app:backgroundColor="@color/colorPrimary"
+            app:corners="5dp"
+            app:normalHeight="4dp"
+            app:pressedHeight="1dp"
+            app:shadowColor="@color/white" />
+
+        <ru.katso.livebutton.LiveButton
+            android:id="@+id/btnExit"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:text="Yes, Proceed"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            app:backgroundColor="@color/colorPrimary"
+            app:corners="5dp"
+            app:normalHeight="4dp"
+            app:pressedHeight="1dp"
+            app:shadowColor="@color/white" />
+    </LinearLayout>
+</RelativeLayout>

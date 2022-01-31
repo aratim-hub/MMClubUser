@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="05dp"
+    xmlns:livebutton="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorGray">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="02dp"
+            android:layout_marginBottom="02dp"
+            android:layout_centerHorizontal="true"
+            android:text="Support Ticket Details"
+            android:textColor="@color/colorBlack"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:id="@+id/spnSelectSubject"></Spinner>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/colorWhite"
+        android:layout_marginLeft="05dp"
+        android:padding="05dp"
+        android:layout_marginBottom="05dp"
+        android:layout_marginRight="05dp">
+
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="250dp">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:hint="Messege"
+                android:layout_gravity="top"
+                android:isScrollContainer="true"
+                android:textIsSelectable="true"
+                android:id="@+id/edtMessege" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginTop="05dp"
+            android:layout_height="wrap_content"
+            android:weightSum="2">
+
+            <ru.katso.livebutton.LiveButton
+                android:id="@+id/btnCancel"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="30dp"
+                android:text="Cancel"
+                android:textAllCaps="false"
+                android:textColor="@color/colorBlack"
+                android:layout_marginRight="02dp"
+                android:textSize="18sp"
+                livebutton:backgroundColor="@color/colorGray"
+                livebutton:normalHeight="4dp"
+                livebutton:pressedHeight="1dp"
+                livebutton:shadowColor="@color/colorAccent" />
+
+            <ru.katso.livebutton.LiveButton
+                android:id="@+id/btnSubmit"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_marginLeft="02dp"
+                android:layout_height="30dp"
+                android:text="Submit"
+                android:textAllCaps="false"
+                android:textColor="@color/colorBlack"
+                android:textSize="18sp"
+                livebutton:backgroundColor="@color/colorGray"
+                livebutton:normalHeight="4dp"
+                livebutton:pressedHeight="1dp"
+                livebutton:shadowColor="@color/colorAccent" />
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

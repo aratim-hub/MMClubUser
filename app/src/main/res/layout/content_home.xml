@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_Container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".activities.Home"
+    android:background="@color/colorBlack"
+    tools:showIn="@layout/app_bar_home">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:id="@+id/layout_news_latest"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imageSlider"
+                android:layout_marginTop="02dp"
+                android:background="@color/colorPrimary"
+                android:orientation="horizontal"
+                android:padding="02dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="Latest Updates: "
+                    android:textColor="@color/colorBlack"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/txtMarquee"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="marquee"
+                    android:marqueeRepeatLimit="marquee_forever"
+                    android:singleLine="true"
+                    android:text="This is sample text moving here This is sample text moving here"
+                    android:textColor="@color/colorBlack" />
+
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/layout_msv"
+                android:layout_below="@+id/button_relative_layout">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/card_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    card_view:cardCornerRadius="5dp"
+                    card_view:cardUseCompatPadding="true">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:id="@+id/imgMultisuccessVideo"
+                            android:layout_width="match_parent"
+                            android:layout_height="200dp"
+                            android:src="@color/colorBlack" />
+
+                        <ImageView
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_centerInParent="true"
+                            android:src="@mipmap/play_button" />
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:src="@drawable/bg_overlay_reverse" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:layout_marginBottom="05dp"
+                            android:text="Introduction Video for Multi-Success Opportunity"
+                            android:textColor="@color/colorPrimary" />
+                    </RelativeLayout>
+
+                </androidx.cardview.widget.CardView>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/layout_msv">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    card_view:cardCornerRadius="5dp"
+                    card_view:cardUseCompatPadding="true">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:id="@+id/imgMultisuccessPathVideo"
+                            android:layout_width="match_parent"
+                            android:layout_height="200dp"
+                            android:src="@color/colorBlack" />
+
+                        <ImageView
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_centerInParent="true"
+                            android:src="@mipmap/play_button" />
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:src="@drawable/bg_overlay_reverse" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:layout_marginBottom="05dp"
+                            android:text="Multi-Success Path"
+                            android:textColor="@color/colorPrimary" />
+                    </RelativeLayout>
+
+                </androidx.cardview.widget.CardView>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/button_relative_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imageSliderAchievment"
+                android:background="@color/colorPrimary"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btnMultiSuccess"
+                    android:layout_width="200dp"
+                    android:layout_height="38dp"
+                    android:layout_marginTop="05dp"
+                    android:layout_marginBottom="05dp"
+                    android:background="@drawable/button_background"
+                    android:elevation="10dp"
+                    android:layout_centerInParent="true"
+                    android:padding="02dp"
+                    android:shadowColor="@color/colorBlack"
+                    android:shadowRadius="10"
+                    android:text="@string/click_for_multisucess"
+                    android:textAlignment="center"
+                    android:textAllCaps="false"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="16sp"
+                    android:theme="@style/RippleEffect"
+                    android:translationZ="10dp" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/txtOurAchievement"
+                android:layout_width="20dp"
+                android:layout_height="180dp"
+                android:layout_below="@+id/layout_news_latest"
+                android:background="#7E2608"
+                android:shadowRadius="10">
+
+                <TextView
+                    android:id="@+id/txtOurAchievement1"
+                    android:layout_width="20dp"
+                    android:layout_height="match_parent"
+                    android:background="#7E2608"
+                    android:layout_centerVertical="true"
+                    android:text="A\nc\nh\ni\ne\nv\nm\ne\nn\nt"
+                    android:shadowRadius="10"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:shadowColor="@color/colorBlack"
+                    android:textColor="@color/colorPrimary" />
+            </RelativeLayout>
+
+            <com.smarteist.autoimageslider.SliderView
+                android:id="@+id/imageSliderAchievment"
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:layout_below="@+id/layout_news_latest"
+                android:layout_toRightOf="@+id/txtOurAchievement"
+                android:layout_marginStart="0dp"
+                app:sliderAnimationDuration="1000"
+                app:sliderAutoCycleDirection="back_and_forth"
+                app:sliderAutoCycleEnabled="true"
+                app:sliderCircularHandlerEnabled="true"
+                app:sliderIndicatorAnimationDuration="600"
+                app:sliderIndicatorGravity="center_horizontal|bottom"
+                app:sliderIndicatorMargin="5dp"
+                app:sliderIndicatorOrientation="horizontal"
+                app:sliderIndicatorPadding="3dp"
+                app:sliderIndicatorRadius="1dp"
+                app:sliderIndicatorSelectedColor="@color/colorWhite"
+                app:sliderIndicatorUnselectedColor="@color/colorPrimary"
+                app:sliderScrollTimeInSec="3"
+                app:sliderStartAutoCycle="false" />
+
+            <com.smarteist.autoimageslider.SliderView
+                android:id="@+id/imageSlider"
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                android:layout_marginStart="0dp"
+                app:sliderAnimationDuration="1000"
+                app:sliderAutoCycleDirection="back_and_forth"
+                app:sliderAutoCycleEnabled="true"
+                app:sliderCircularHandlerEnabled="true"
+                app:sliderIndicatorAnimationDuration="600"
+                app:sliderIndicatorGravity="center_horizontal|bottom"
+                app:sliderIndicatorMargin="5dp"
+                app:sliderIndicatorOrientation="horizontal"
+                app:sliderIndicatorPadding="3dp"
+                app:sliderIndicatorRadius="1dp"
+                app:sliderIndicatorSelectedColor="@color/colorWhite"
+                app:sliderIndicatorUnselectedColor="@color/colorPrimary"
+                app:sliderScrollTimeInSec="7"
+                app:sliderStartAutoCycle="false" />
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

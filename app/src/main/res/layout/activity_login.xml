@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:livebutton="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/loginContainer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBlack"
+    tools:context=".activities.Login">
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <ImageView
+                android:id="@+id/imhLogo"
+                android:layout_width="350dp"
+                android:layout_height="300dp"
+                android:layout_centerHorizontal="true"
+                android:src="@mipmap/mmc_logo" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/imhLogo"
+                android:layout_marginBottom="50dp"
+                android:orientation="vertical"
+                android:padding="40dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/enter_registered_mobile_number"
+                    android:textColor="@color/colorWhite" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/edtback"
+                    android:padding="2dp">
+
+                    <EditText
+                        android:id="@+id/edtMobileNumber"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:background="@color/colorBlack"
+                        android:imeOptions="actionNext"
+                        android:inputType="number"
+                        android:maxLength="10"
+                        android:padding="5dp"
+                        android:textAlignment="viewStart"
+                        android:textColor="@color/colorWhite" />
+                </RelativeLayout>
+
+                <ru.katso.livebutton.LiveButton
+                    android:id="@+id/btnGetOTP"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="25dp"
+                    android:text="Continue >>"
+                    android:textAllCaps="false"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="18sp"
+                    livebutton:backgroundColor="@color/colorGreen"
+                    livebutton:corners="2dp"
+                    livebutton:normalHeight="4dp"
+                    livebutton:pressedHeight="1dp"
+                    livebutton:shadowColor="@color/colorAccent" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/txtRegisterHere"
+                android:layout_width="wrap_content"
+                android:padding="20dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:text="New User? Register here !"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+        </RelativeLayout>
+
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/txtVersion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:text="Version 1.2"
+        android:textColor="@color/colorWhite" />
+</RelativeLayout>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        card_view:cardCornerRadius="5dp"
+        card_view:cardUseCompatPadding="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txtSupportTicketId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="05dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtTicketSubject"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="05dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtTicketBody"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="05dp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/txtDateTime"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="05dp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>
